@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/namelayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:textSize="33sp" />
+
+    <EditText
+        android:id="@+id/phonelayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="폰번호"
+        android:textSize="33sp" />
+
+    <Button
+        android:id="@+id/addButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="등록하기"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

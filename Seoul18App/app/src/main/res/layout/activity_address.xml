@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hatae"
+    android:layout_height="match_parent"
+    tools:context=".AddressActivity">
+
+    <Button
+        android:id="@+id/addB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:text="+"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="23sp"
+        android:textStyle="normal|bold" />
+    <ListView
+        android:id="@+id/optionListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></ListView>
+</LinearLayout>
